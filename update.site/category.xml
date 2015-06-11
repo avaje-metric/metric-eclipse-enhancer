@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.avaje.metric.eclipse.feature.source_1.1.1.jar" id="org.avaje.metric.eclipse.source" version="1.1.1">
+      <category name="org.avaje.metric.eclipse.source"/>
+   </feature>
+   <feature url="features/org.avaje.metric.eclipse.feature_1.1.1.jar" id="org.avaje.metric.eclipse" version="1.1.1">
+      <category name="org.avaje.metric.eclipse.released"/>
+   </feature>
+   <category-def name="org.avaje.metric.eclipse.released" label="Released">
+      <description>
+         Avaje Metric Enhancer
+      </description>
+   </category-def>
+   <category-def name="org.avaje.metric.eclipse.source" label="Source">
+      <description>
+         Avaje Metric Enhancer Developer Resources
+      </description>
+   </category-def>
+</site>
