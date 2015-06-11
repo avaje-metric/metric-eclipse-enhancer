@@ -31,7 +31,7 @@
             </goals>
             <configuration>
               <excludeTransitive>true</excludeTransitive>
-              <includeArtifactIds>avaje-ebeanorm-agent</includeArtifactIds>
+              <includeArtifactIds>avaje-metric-agent</includeArtifactIds>
               <outputDirectory>lib</outputDirectory>
               <overWriteReleases>true</overWriteReleases>
               <overWriteSnapshots>true</overWriteSnapshots>

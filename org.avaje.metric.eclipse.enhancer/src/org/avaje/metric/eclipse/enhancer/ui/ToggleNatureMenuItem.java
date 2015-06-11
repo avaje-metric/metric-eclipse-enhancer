@@ -63,7 +63,7 @@ public class ToggleNatureMenuItem extends CompoundContributionItem implements IW
                 IProject project = ToggleNatureHandler.getProject(window.getActivePage().getSelection());
 
                 // this is the 'default' text
-                String menuText = "Toggle Ebean AutoEnhancer";
+                String menuText = "Toggle Avaje metrics enhancer";
 
                 if (project != null)
                 {
@@ -71,11 +71,11 @@ public class ToggleNatureMenuItem extends CompoundContributionItem implements IW
                     {
                         if (project.hasNature(EnhancerConstants.NATURE_ID))
                         {
-                            menuText = "Disable Ebean AutoEnhancer";
+                            menuText = "Disable Avaje metrics enhancer";
                         }
                         else
                         {
-                            menuText = "Enable Ebean AutoEnhancer";
+                            menuText = "Enable Avaje metrics enhancer";
                         }
                     }
                     catch (CoreException e)
